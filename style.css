@@ -4,3 +4,9 @@
  Description:  This is the first theme created by anjana a child theme of WordPress' Twenty Sixteen theme
  Template:     twentysixteen
 */
+
+
+/*content area of home page*/
+.home .entry-content{
+	color:red;
+}
