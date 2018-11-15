@@ -40,7 +40,8 @@ function create_custom_post_type_case_study(){
 		'rewrite' => array( "slug" => "Case-Studies" ), // defines URL base
 		'supports'=> array('title', 'thumbnail', 'editor', 'excerpt'),
 		'show_in_nav_menus' => true,
-		'taxonomies' => array( 'event_category', 'post_tag')
+		'taxonomies' => array( 'event_category', 'post_tag'),
+		'has_archive' => true
 	);
 	register_post_type('case-studies', $args); 
 }
